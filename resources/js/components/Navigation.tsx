@@ -31,8 +31,8 @@ export default function Navigation() {
                             href={path}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className={`text-sm font-medium transition-colors duration-200 ${
-                                isActive(path) ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600 dark:text-gray-400'
+                            className={`text-sm font-medium transition-colors duration-200  hover:text-[#927D92] dark:hover:text-[#927D92] ${
+                                isActive(path) ? 'text-[#5B3D5C]' : 'text-gray-700 dark:text-gray-400'
                             }`}
                         >
                             {t(label)}
@@ -43,8 +43,8 @@ export default function Navigation() {
                             cache-for="5m"
                             key={path}
                             href={path}
-                            className={`text-sm font-medium transition-colors duration-200 ${
-                                isActive(path) ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600 dark:text-gray-400'
+                            className={`text-sm font-medium transition-colors duration-200  hover:text-[#927D92] dark:hover:text-[#927D92]  ${
+                                isActive(path) ? 'text-[#5B3D5C]' : 'text-gray-700 dark:text-gray-400'
                             }`}
                         >
                             {t(label)}
